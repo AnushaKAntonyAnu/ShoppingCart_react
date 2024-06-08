@@ -54,7 +54,7 @@ const ViewallProduct = () => {
             },
             {
               "id": 5,
-              "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+              "title": "John Gold & Silver Dragon Station Chain Bracelet",
               "price": 695,
               "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
               "category": "jewelery",
@@ -142,7 +142,7 @@ const ViewallProduct = () => {
                                             <div class="card-body">
                                                 <h5 class="card-title">{value.id}</h5>
                                                 <h5 class="card-title">{value.category}</h5>
-                                                <p class="card-text">{value.description}</p>
+                                                <p class="card-text">{value.title}</p>
                                                 <h5 class="card-title">{value.price}</h5>
                                                 <a href="#" class="btn btn-primary">Buy Now</a>
                                             </div>
