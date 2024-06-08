@@ -138,7 +138,7 @@ const ViewallProduct = () => {
                                     (value,index)=>{
                                         return<div className="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                                         <div class="card">
-                                        <img src={value.image} class="card-img-top" alt="..."></img>
+                                        <img height="200px" src={value.image} class="card-img-top" alt="..."></img>
                                             <div class="card-body">
                                                 <h5 class="card-title">{value.id}</h5>
                                                 <h5 class="card-title">{value.category}</h5>
